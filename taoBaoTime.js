@@ -73,7 +73,7 @@ function getTaoBaoTime() {
             taoBaoTime = parseInt(obj.data.t);
             console.log('获取的淘宝时间：' + taoBaoTime);
         } catch (e) {
-            console.log('获取淘宝时间出异常啦，可以加QQ群：819539788了解下情况。' + e);
+            console.log('获取淘宝时间出异常啦，可以加微信：vvlang了解下情况。' + e);
         }
     }, "api.m.taobao.com");
 }
